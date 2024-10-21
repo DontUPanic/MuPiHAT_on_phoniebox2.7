@@ -1,6 +1,8 @@
 # MuPiHAT on Phoniebox V2.7
 This repository describes the setup of Phoniebox V2.7 with MuPiHAT on a RaspberryPi (Zero W) 
 
+ToDo:
+Bluetooth Headphones
 
 # 1.  Install Phoniebox 2.7 Software
 

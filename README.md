@@ -48,4 +48,4 @@ https://github.com/mopidy/mopidy-spotify/discussions/405#discussioncomment-10881
    shutdown_delay=0
    polling_rate=1
    ```
-3. ```reboot```
+3. ```sudo reboot```

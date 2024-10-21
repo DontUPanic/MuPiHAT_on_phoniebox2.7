@@ -1,6 +1,10 @@
 # MupiHAT_on_phoniebox
 This repository describes the setup of Phoniebox V2.7 with MuPiHAT on a RaspberryPi (Zero W) 
 
+## ToDo
+
+Fix Audio
+
 # 1.  Install Phoniebox 2.7 Software
 
 https://github.com/MiczFlor/RPi-Jukebox-RFID/wiki/INSTALL-COMPLETE-GUIDE#6-install-phoniebox-software

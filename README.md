@@ -13,6 +13,51 @@ https://github.com/MiczFlor/RPi-Jukebox-RFID/wiki/INSTALL-COMPLETE-GUIDE#6-insta
 
 The other chapters are worth reading as well
 
+Find the extract below:
+>## 6. Install Phoniebox software
+>
+>If you want to install the **Spotify+ version**, [read this first](https://github.com/MiczFlor/RPi-Jukebox-RFID/wiki/Spotify-FAQ).
+>
+>Run the following command in your SSH terminal and follow the instructions
+>
+>```bash
+>cd; rm install-jukebox.sh; wget https://raw.githubusercontent.com/MiczFlor/RPi-Jukebox-RFID/master/scripts/installscripts/install-jukebox.sh; chmod +x install-jukebox.sh; ./install->jukebox.sh
+>```
+>
+>1. `Yes` to `Continue interactive installation`
+>1. `No` to the `Wifi Setting step` - it's already set!
+>1. `No` to "Use Headphone as iFace?" in `CONFIGURE AUDIO INTERFACE (iFace)`- use `Speaker` 
+>1. Setup Spotify (optional)
+>    1. You need to generate your personal Spotify client ID and secret
+>    1. Visit the [Mopidy Spotify Authentication Page](https://mopidy.com/ext/spotify/#authentication)
+>    1. Click the button `Authenticate Mopidy with Spotify`
+>    1. Login to Spotify with your credentials
+>    1. Once logged in, the code snippet on the website is updated with your `client_id` and `client_secret`
+>    1. Provide your Spotify `username`, `password` and paste your `client_id` and `client_secret` into your terminal
+>1. `Yes` to `CONFIGURE MPD`
+>1. `Yes` to `FOLDER CONTAINING AUDIO FILES`
+>1. Optional: In this scenario, we do not install GPIO buttons, so feel free to choose `No`
+>1. `Yes` to `Do you want to start the installation?`
+>1. ... Wait a bit for the installation to happen ...
+>1. `Yes` to `Have you connected your RFID reader?`
+>1. `1` to select `1. USB-Reader`
+>1. Choose the `#` that resonates with your RFID reader, in our case `HXGCoLtd Keyboard`
+>1. `Yes` to `Would you like to reboot now?`
+>
+>---
+>
+>## 7. Verify Phoniebox setup
+>
+>1. Open a browser in your computer and navigate to your Raspberry Pi: `http://raspberrypi.local`
+>1. You should see the Phoniebox UI
+>1. In your navigation, choose `Card ID`
+>1. Swipe one card near your RFID reader. If `Last used Chip ID` is automatically updated (you might hear a beep) and shows a number, your reader works
+>1. Verify Spotify (optional)
+>    1. Click `Spotify+` in the menu
+>    1. Mopidy opens, a second web player which was also installed
+>    1. You should be able to search and play Spotify content here
+>
+
 # 2. Fix Audio
 
 1. Open config.txt via ```sudo nano /boot/config.txt``` and edit/add:

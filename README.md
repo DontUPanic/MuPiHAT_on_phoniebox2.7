@@ -25,7 +25,7 @@ https://github.com/MiczFlor/RPi-Jukebox-RFID/wiki/INSTALL-COMPLETE-GUIDE#6-insta
 3. ```sudo reboot```
 4. Check if your audio works: ```aplay /usr/share/sounds/alsa/Front_Center.wav```
 5. If it works, skip to the next chapter - If NOT, do the following steps:
-6. Check ```sudo raspi-config``` -> 1   System Options ->  S2   Audio for the device "MAX98357A".
+6. Check ```sudo raspi-config``` -> 1   System Options ->  S2   Audio -> select the device "MAX98357A".
    
    The number before the device is the device no. Mine says "0   MAX98357A"
 

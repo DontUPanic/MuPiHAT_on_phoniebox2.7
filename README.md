@@ -7,7 +7,11 @@ Fix Audio
 
 # 1.  Install Phoniebox 2.7 Software
 
+Follow Chapter 6 of this guide line by line!
+
 https://github.com/MiczFlor/RPi-Jukebox-RFID/wiki/INSTALL-COMPLETE-GUIDE#6-install-phoniebox-software
+
+The other chapters are worth reading as well
 
 # 2. Fix Audio
 

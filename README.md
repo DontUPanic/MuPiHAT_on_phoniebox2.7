@@ -1,9 +1,6 @@
 # MuPiHAT on Phoniebox V2.7
 This repository describes the setup of Phoniebox V2.7 with MuPiHAT on a RaspberryPi (Zero W) 
 
-## ToDo
-
-Fix Audio
 
 # 1.  Install Phoniebox 2.7 Software
 
@@ -58,6 +55,7 @@ Find the extract below:
 >    1. You should be able to search and play Spotify content here
 >
 
+
 # 2. Fix Audio
 
 1. Open config.txt via ```sudo nano /boot/config.txt``` and edit/add [^1]:
@@ -107,6 +105,7 @@ Find the extract below:
 
 [^1] https://mupihat.de/pages/faq
 
+
 # 3. Fix Mopidy-Spotify
 
 1. Download the latest gst-plugin-spotify_0.14.0.alpha.1-1_armhf.deb with ```cd ~ && wget https://github.com/kingosticks/gst-plugins-rs-build/releases/download/gst-plugin-spotify_0.14.0-alpha.1-1/gst-plugin-spotify_0.14.0.alpha.1-1_armhf.deb```.
@@ -121,6 +120,7 @@ Find the extract below:
 compiled with the help of this thread:
 
 https://github.com/mopidy/mopidy-spotify/discussions/405#discussioncomment-10881114
+
 
 # 4. Setup the included OnOff-Shim
 

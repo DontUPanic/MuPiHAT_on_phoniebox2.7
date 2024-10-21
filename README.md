@@ -106,7 +106,7 @@ Find the extract below:
 [^1]: https://mupihat.de/pages/faq
 
 
-# 3. Fix Mopidy-Spotify
+# 3. Fix Mopidy-Spotify [^2]
 
 1. Download the latest gst-plugin-spotify_0.14.0.alpha.1-1_armhf.deb with ```cd ~ && wget https://github.com/kingosticks/gst-plugins-rs-build/releases/download/gst-plugin-spotify_0.14.0-alpha.1-1/gst-plugin-spotify_0.14.0.alpha.1-1_armhf.deb```.
 2. Install the plugin. Run ```sudo dpkg -i gst-plugin-spotify_0.14.0.alpha.1-1_armhf.deb```.
@@ -117,10 +117,7 @@ Find the extract below:
 7. Next you have to put your credentials into ```nano /etc/mopidy/mopidy.conf```. Use https://mopidy.com/ext/spotify/#authentication to create the credentials.
 8. Restart mopidy ```sudo systemctl restart mopidy```
 
-compiled with the help of this thread:
-
-https://github.com/mopidy/mopidy-spotify/discussions/405#discussioncomment-10881114
-
+[^2]: https://github.com/mopidy/mopidy-spotify/discussions/405#discussioncomment-10881114
 
 # 4. Setup the included OnOff-Shim
 

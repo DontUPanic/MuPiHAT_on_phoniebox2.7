@@ -60,7 +60,7 @@ Find the extract below:
 
 # 2. Fix Audio
 
-1. Open config.txt via ```sudo nano /boot/config.txt``` and edit/add:
+1. Open config.txt via ```sudo nano /boot/config.txt``` and edit/add [^1]:
    ```
    #MuPiHat audio config:  
    dtparam=i2c_arm=on  
@@ -104,7 +104,8 @@ Find the extract below:
    ```
 8. ```sudo reboot```
 9. Check audio again: ```aplay /usr/share/sounds/alsa/Front_Center.wav```
-   
+
+[^1] https://mupihat.de/pages/faq
 
 # 3. Fix Mopidy-Spotify
 

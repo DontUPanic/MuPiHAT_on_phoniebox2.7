@@ -103,7 +103,7 @@ Find the extract below:
 8. ```sudo reboot```
 9. Check audio again: ```aplay /usr/share/sounds/alsa/Front_Center.wav```
 
-[^1] https://mupihat.de/pages/faq
+[^1]: https://mupihat.de/pages/faq
 
 
 # 3. Fix Mopidy-Spotify

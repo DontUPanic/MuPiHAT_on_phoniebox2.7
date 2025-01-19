@@ -6,6 +6,8 @@ Bluetooth Headphones
 
 # 1.  Install Phoniebox 2.7 Software
 
+Make sure you have Raspberry Pi OS Lite (Legacy, 32-bit) installed.
+
 Follow Chapter 6 of this guide line by line!
 
 https://github.com/MiczFlor/RPi-Jukebox-RFID/wiki/INSTALL-COMPLETE-GUIDE#6-install-phoniebox-software
